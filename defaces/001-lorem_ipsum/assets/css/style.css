@@ -1,0 +1,180 @@
+/* Lorem ipsum */
+
+* {
+	padding: 0;
+	margin: 0;
+
+}
+
+/* Lorem ipsum */
+
+body {
+	background: #dadaff;
+
+}
+
+/* Lorem ipsum */
+
+#checkbox-menu {
+	position: absolute;
+	opacity: 0;
+
+}
+
+/* Lorem ipsum */
+
+label {
+	cursor: pointer;
+	position: absolute;
+	display: block;
+	height: 50px;
+	width: 50px;
+	float: left;
+	z-index: 3;
+
+}
+
+/* Lorem ipsum */
+
+label span {
+	position: absolute;
+	display: block;
+	height: 4px;
+	width: 50%;
+	background: #2e2b41;
+	margin: 25%;
+	border-radius: 2px;
+	transition: .25s ease-in-out;
+
+}
+
+/* Lorem ipsum */
+
+label span:nth-child(1) {
+	top: 0;
+
+}
+
+label span:nth-child(2) {
+	top: 8px;
+
+}
+
+label span:nth-child(3) {
+	top: 16px;
+
+}
+
+/* Lorem ipsum */
+
+#checkbox-menu:checked + label span {
+	background: #bec0f1;
+
+}
+
+#checkbox-menu:checked + label span:nth-child(1) {
+	transform: rotate(45deg);
+	top: 8px;
+
+}
+
+#checkbox-menu:checked + label span:nth-child(2) {
+	transform: translateX(-15px);
+	opacity: 0;
+
+}
+
+#checkbox-menu:checked + label span:nth-child(3) {
+	transform: rotate(-45deg);
+	top: 8px;
+
+}
+
+#checkbox-menu:checked ~ nav {
+	transform: translateX(250px);
+
+}
+
+/* Lorem ipsum */
+
+nav {
+	background: #313357e6;
+	width: 250px;
+	height: 100%;
+	left: -250px;
+	position: absolute;
+	transition: .25s ease-in-out;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+
+}
+
+/* Lorem ipsum */
+
+ul {
+	list-style: none;
+	top: 70px;
+	position: absolute;
+	width: 100%;
+
+}
+
+/* Lorem ipsum */
+
+.links {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: sans-serif;
+	display: block;
+	text-align: center;
+	padding: 12px 5px;
+	transition: .25s ease-in-out;
+
+}
+
+.links:hover {
+	background: #1e1f3bb6;
+
+}
+
+
+/* Lorem ipsum */
+h1 {
+	font-family: sans-serif;
+	color: #e42929;
+	font-size: 3em;
+	padding: 40px 10px 20px 60px;
+
+}
+
+/* Lorem ipsum */
+
+p {
+	font-family: monospace;
+	color: #333658;
+	word-wrap: wrap;
+	text-align: justify;
+	font-size: 14px;
+	padding-left: 60px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+
+}
+
+/* Lorem ipsum */
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 450px;
+	height: auto;
+	
+}
+
+/* Lorem ipsum {
+	Lorem: ipsum;
+
+} */
