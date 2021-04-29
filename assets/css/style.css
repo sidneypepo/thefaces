@@ -9,6 +9,11 @@ body {
 
 }
 
+abbr {
+	cursor: help;
+
+}
+
 a {
 	text-decoration: none;
 	

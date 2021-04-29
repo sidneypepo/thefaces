@@ -1,0 +1,78 @@
+@font-face {
+	font-family: "Perfect DOS";
+	src: url("../font/Perfect DOS VGA 437.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+
+}
+
+body {
+	background: #000ab3;
+	color: #bbbbbb;
+	font-family: "Perfect DOS", monospace;
+	font-size: 1.1em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+
+}
+
+#windows {
+	background: #bbbbbb;
+	color: #000ab3;
+	width: fit-content;
+
+}
+
+ul {
+	list-style: none;
+
+}
+
+li:before {
+	content: "*";
+	padding-right: 2em;
+
+}
+
+#press_key:after {
+	content: " _";
+	animation: underscore 1s infinite;
+
+}
+
+@keyframes underscore {
+	0% {
+		visibility: visible;
+
+	}
+  
+	49% {
+		visibility: visible;
+
+	}
+
+	50% {
+		visibility: hidden;
+
+	}
+  
+	100% {
+		visibility: hidden;
+
+	}
+
+}
